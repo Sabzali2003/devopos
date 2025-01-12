@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "nginx-static-site" // Docker image name
         CONTAINER_NAME = "nginx-static-site-container" // Docker container name
-        REPO_URL = 'https://github.com/Sabzali2003/jenkins_pipeline.git' // Replace with your repo URL
+        REPO_URL = 'https://github.com/Sabzali2003/devopos.git' // Replace with your repo URL
         DOCKERHUB_CREDENTIALS = credentials('dockerhub_creds') // Jenkins credentials ID
         DOCKERHUB_REPO = "sabzali2003/nginx-static-site" // Docker Hub repository
     }
